@@ -8,11 +8,24 @@
 </head>
 <body>
 
-<h1>Video Downloader</h1>
+<div class="container">
+
+<h1>🎬 Video Downloader</h1>
+
+<p>Download video yang diizinkan untuk diunduh.</p>
 
 <input type="text" placeholder="Tempel URL di sini">
 
-<button>Download</button>
+<select>
+<option>MP4</option>
+<option>MP3</option>
+</select>
+
+<button onclick="download()">Download</button>
+
+<p id="hasil"></p>
+
+</div>
 
 <script src="script.js"></script>
 
